@@ -12,6 +12,8 @@ body {
   align-items: center;
   /* overflow-y: hidden; Hide vertical scrollbar */
   overflow-x: hidden; /* Hide horizontal scrollbar */
+  
+ 
 }
 
 html {
@@ -49,7 +51,7 @@ nav {
 }
 
 a {
-  color: black;
+  color: rgb(255, 255, 255);
   text-decoration: none;
   text-decoration-color: white;
 }
@@ -63,7 +65,18 @@ a:hover {
 
 .logo {
   font-size: 2rem;
+  color:#ffff;
 }
+
+.background{
+  background: linear-gradient(180deg, #1400FF 0%, #000000 100%), linear-gradient(154.03deg, #33FF00 0%, #FF003D 74.04%), linear-gradient(341.1deg, #F0B4FF 7.52%, #1700A4 77.98%), radial-gradient(49.82% 80.51% at 49.82% 50%, #8100A2 0%, #FF3D00 100%), radial-gradient(50% 72.12% at 50% 50%, #EB00FF 0%, #110055 100%);
+  background-blend-mode: overlay, difference, difference, difference, normal;
+  padding-bottom: 30px;
+}
+.about-back{
+  background-color: #242121;
+}
+
 
 .logo:hover {
   cursor: default;
@@ -112,7 +125,7 @@ a:hover {
   padding: 10px;
   text-align: center;
   font-size: 1.5rem;
-  color: black;
+  color: rgb(253, 253, 253);
   text-decoration: none;
   transition: all 0.3 ease-in-out;
 }
@@ -157,6 +170,7 @@ section {
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
+  
 }
 
 .section-container {
@@ -190,6 +204,7 @@ section {
 
 .section__text__p1 {
   text-align: center;
+  color: #ffff;
 }
 
 .section__text__p2 {
@@ -200,6 +215,7 @@ section {
 .title {
   font-size: 3rem;
   text-align: center;
+  color: white;
 }
 
 #socials-container {
@@ -251,16 +267,17 @@ section {
 
 .btn-color-1,
 .btn-color-2:hover {
-  background: rgb(53, 53, 53);
-  color: white;
+  background: rgb(250, 248, 248);
+  color: rgb(0, 0, 0);
 }
 
 .btn-color-1:hover {
-  background: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
 }
 
 .btn-color-2 {
   background: none;
+  color: white;
 }
 
 .btn-color-2:hover {
@@ -281,6 +298,7 @@ section {
   gap: 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
+  
 }
 
 .about-details-container {
@@ -315,8 +333,13 @@ section {
 
 .text-sub {
   text-align:justify;
-  list-style:circle
+  list-style:circle;
+  color:#ffff;
 }
+.text-sub p{
+  color: #fff;
+}
+
 
 .section-container {
   gap: 4rem;
@@ -336,7 +359,7 @@ section {
 }
 
 .experience-sub-title {
-  color: rgb(85, 85, 85);
+  color: rgb(0, 0, 0);
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
@@ -346,6 +369,8 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  
+
 }
 
 .article-container {
@@ -355,6 +380,7 @@ section {
   flex-direction: row;
   gap: 2.5rem;
   justify-content: space-around;
+  
 }
 
 article {
@@ -387,11 +413,12 @@ article .icon {
 
 .project-title {
   margin: 1rem;
-  color: black;
+  color: rgb(0, 0, 0);
+  font-family:Arial, Helvetica, sans-serif;
 }
 
 .project-btn {
-  color: black;
+  color: rgb(0, 0, 0);
   border-color: rgb(163, 163, 163);
 }
 
@@ -569,12 +596,13 @@ footer p {
     background: url(../images/) no-repeat top center;
     background-size: cover;
     padding: 220px 0 120px;
+    
 }
 
 .banner-content h2{
 	font-size: 22px;
 	font-weight: 300;
-	color: #000000;
+	color: #fffdfd;
 	line-height: 2.3em;
 	margin-bottom: 1.5em;
 	letter-spacing: 0.04em;
@@ -634,6 +662,10 @@ footer p {
 	padding-bottom: 20px;
 	margin-bottom: 30px;
 }
+.about-content h1{
+	color: #fff;
+	
+}
 
 .about-content h3:after{
 	content: '';
@@ -649,12 +681,14 @@ footer p {
 .about-content p{
 	line-height: 1.6em;
 	margin-bottom: 1.6em;
+  
 }
 
 .about-content ul{
 	padding: 0;
 	margin: 0;
 	list-style: none;
+  color: #fff;
     
 }
 
