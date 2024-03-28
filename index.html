@@ -259,7 +259,6 @@
         class="icon arrow"
         onclick="location.href='./#projects'"
       />
-      <br/>
     </section>
   </div>
   <!-- SKILLS SECTION ENDS -->
@@ -279,6 +278,7 @@
                 src="./assets/p1.png"
                 alt="Project 1"
                 class="project-img"
+                id = "p1"
               />
               
             </div>
@@ -296,11 +296,10 @@
               <!--POPOPOPOP-->
               <div id="popup1" class="overlay">
                 <div class="popup">
-                <a class="close" href="#projects">&times;</a>
+                <a class="close" href="#p1">&times;</a>
                 <img src="assets/p1.png" alt="" width="45%" align = "left">
-                <h2>STUDENT INFORMATION <br/>MANAGEMENT SYSTEM</h2>
+                <h2>STUDENT INFORMATION MANAGEMENT SYSTEM</h2>
                 <h4>HTML | CSS | PHP | JS</h4>
-                </br>
                 </br>
                 <p>Graphical interface for maintaining student information</p>
                 </br>
@@ -321,6 +320,7 @@
                 src="./assets/p2.png"
                 alt="Project 2"
                 class="project-img"
+                id = "p2"
               />
             </div>
             <h2 class="experience-sub-title project-title">DATA-DRIVEN INSIGHTS ON OLYMPIC SPORTS PARTICIPATION AND PERFORMANCE</h2>
@@ -337,15 +337,13 @@
               <!--POPOPOPOP-->
               <div id="popup2" class="overlay">
                 <div class="popup">
-                <a class="close" href="#projects">&times;</a>
+                <a class="close" href="#p2">&times;</a>
                   <img src="assets/p2.png" alt="" width="45%" align = "left">
-                  <h2>DATA-DRIVEN INSIGHTS ON<br/>OLYMPIC SPORTS PARTICIPATION<br/>AND PERFORMANCE</h2>
+                  <h2>DATA-DRIVEN INSIGHTS ON OLYMPIC SPORTS PARTICIPATION AND PERFORMANCE</h2>
                   <h4>HTML | CSS | PHP | JS</h4>
-                  </br>
                   <p>The project aims to analyze and derive data-driven insights 
                   from Olympic sports data to gain a comprehensive understanding of sports 
                   participation and performance.</p>
-                  </br>
                   <button
                   class="btn btn-color-1"
                   onclick="location.href='https://github.com/subash-srk/DATA-DRIVEN-INSIGHTS-ON-OLYMPIC-SPORTS-PARTICIPATION-AND-PERFORMANCE'"
@@ -362,6 +360,7 @@
                 src="./assets/p3.jpg"
                 alt="Project 3"
                 class="project-img"
+                id = "p3"
               />
             </div>
             <h2 class="experience-sub-title project-title">AUTOMATED SURVEILLANCE SYSTEM FOR MILITARY BASES</h2>
@@ -378,16 +377,15 @@
               <!--POPOPOPOP-->
               <div id="popup3" class="overlay">
                 <div class="popup">
-                <a class="close" href="#projects">&times;</a>
+                <a class="close" href="#p3">&times;</a>
                   <img src="assets/p3.jpg" alt="" width="45%" align = "left">
                   <h2>AUTOMATED SURVEILLANCE SYSTEM FOR MILITARY BASES</h2>
                   <h4>MACHINE LEARNINIG | PYTHON</h4>
-                  </br>
-                  </br>
+                 </br>
                   <p>Automated Military Surveillance System monitors military bases,
                      identify the intruders 
                      and alert officials</p>
-                  </br>
+                 
                   <button
                   class="btn btn-color-1"
                   onclick="location.href='https://github.com/subash-srk'"
@@ -403,7 +401,7 @@
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#contact'"
+        onclick="location.href='#contact'"
       />
     </section>
     <!-- PROJECT SECTION ENDS -->
@@ -411,7 +409,7 @@
 
 
     <!-- CONTACT SECTION STARTS -->
-    <div class="about-back"
+    <div class="about-back">
     <section id="contact">
       <p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Contact Me</h1>
@@ -456,7 +454,7 @@
     <footer>
       <nav>
         <div class="nav-links-container">
-          <ul class="nav-links">
+          <ul class="nav-links-bottom">
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
@@ -464,6 +462,7 @@
           </ul>
         </div>
       </nav>
+      <br />
       <p>Copyright &#169; 2024 Subash K. All Rights Reserved.</p>
     </footer>
     <script src="script.js"></script>
